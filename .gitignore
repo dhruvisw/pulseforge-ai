@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+
+# MLflow
+mlruns/
+
+# Models
+models/
+
+# Data
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment vars
+.env
+
+# Mac
+.DS_Store
+
+# Logs
+*.log

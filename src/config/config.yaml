@@ -1,0 +1,14 @@
+data:
+  raw_data_path: data/raw/ai4i2020.csv
+  processed_data_path: data/processed/
+
+model:
+  type: xgboost
+  test_size: 0.2
+  random_state: 42
+
+monitoring:
+  drift_threshold: 0.3
+
+training:
+  target_column: Machine failure
